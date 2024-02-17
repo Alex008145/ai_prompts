@@ -4,7 +4,7 @@ Promptopia is an open-source AI prompting fullstack tool for the modern world. I
 
 ## LIVE PREVIEW
 
-https://promptopia-theta-gules.vercel.app/
+https://ai-prompts-7fe9zehk4-alex008145s-projects.vercel.app/
 
 ## Features
 
