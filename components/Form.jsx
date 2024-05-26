@@ -10,6 +10,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         {type} and share amazing prompts with the world, and let your
         imagination run wild with any AI-powered platform
       </p>
+
       <form
         onSubmit={handleSubmit}
         className="flex flex-col w-full max-w-2xl mt-10 gap-7 glassmorphism"
@@ -22,19 +23,19 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           <textarea
             value={post.prompt}
             onChange={(e) => setPost({ ...post, prompt: e.target.value })}
-            placeholder="Write your prompt here..."
+            placeholder="Write your post here"
             required
-            className="form_textarea"
+            className="form_textarea "
           />
         </label>
+
         <label>
           <span className="text-base font-semibold text-gray-700 font-satoshi">
-            Tag
+            Field of Prompt{" "}
             <span className="font-normal">
-              (#product, #webdevelopment, #idea)
+              (#product, #webdevelopment, #idea, etc.)
             </span>
           </span>
-
           <input
             value={post.tag}
             onChange={(e) => setPost({ ...post, tag: e.target.value })}
@@ -44,10 +45,12 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             className="form_input"
           />
         </label>
+
         <div className="gap-4 mx-3 mb-5 flex-end">
           <Link href="/" className="text-sm text-gray-500">
             Cancel
           </Link>
+
           <button
             type="submit"
             disabled={submitting}
