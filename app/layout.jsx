@@ -7,7 +7,7 @@ export const metadata = {
   title: "Promptopia",
   description: "Discover & Share AI Prompts",
   icons: {
-    icon: "public/favicon.ico",
+    icon: "favicon.ico",
   },
 };
 
