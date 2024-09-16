@@ -1,18 +1,28 @@
 # Promptopia
 
-Promptopia is an open-source AI prompting fullstack tool for the modern world. It provides users with the ability to discover, create, and share creative prompts to inspire their writing, brainstorming sessions, and creative projects. Uses tailwindcss for styling. This README file will guide you through the features, setup, and deployment process for Promptopia app.
+Promptopia оснащен множеством функций, направленных на улучшение взаимодействия пользователя и оптимизацию процесса работы с промптами. Эти функции делают платформу мощным инструментом для создания, обмена и поиска вдохновляющих идей.
 
-## LIVE PREVIEW
+## Превью 
 
 https://ai-prompts-alex008145s-projects.vercel.app/
 
-## Features
 
-- **Authentication with Google:** Users can sign in to Promptopia using their Google accounts, ensuring a secure and hassle-free login process.
-- **Create, Edit, and Delete Posts:** Once logged in, users can create new prompts, edit existing ones, or delete prompts they no longer wish to keep. This gives them complete control over their prompt collection.
-- **User Profiles:** Each user has their own profile page where they can showcase their created prompts. Other users can visit these profile pages to view and gain inspiration from the prompts shared by that user.
-- **Search Functionality:** The main page of Promptopia allows users to search for prompts using keywords, tags, or usernames. This feature makes it easier for users to discover prompts related to specific themes or topics.
-- **Copy Prompt Text:** A handy button allows users to copy the text of a prompt with a single click. This makes it convenient to paste the prompt into an AI tool or any other writing platform.
+
+## Особенности 
+
+
+- Аутентификация с Google: Пользователи могут войти в Promptopia, используя свои учетные записи Google, обеспечивая безопасный и простой процесс входа в систему.
+Создание, Редактирование и Удаление Постов: После входа пользователи могут создавать новые промпты, редактировать существующие или удалять те, которые они больше не хотят сохранять. Это дает им полный контроль над своей коллекцией промптов.
+- Профили Пользователей: У каждого пользователя есть своя страница профиля, на которой можно демонстрировать созданные ими промпты. Другие пользователи могут посещать эти профили, чтобы просматривать и вдохновляться промптами, которыми поделился этот пользователь.
+- Функция Поиска: Главная страница Promptopia позволяет пользователям искать промпты по ключевым словам, тегам или именам пользователей. Эта функция облегчает пользователям нахождение промптов, связанных с конкретными темами или интересами.
+- Копирование Текста Промпта: Удобная кнопка позволяет пользователям копировать текст промпта одним нажатием. Это делает удобным вставку промпта в AI-инструмент или любую другую платформу для письма.
+- Проект создан с помощью Next.js
+- Cтилизован с помощью Tailwind
+- Использует базу данных MongoDB для хранения запросов и данных авторов.
+
+
+- Данный проект создан по видеокурсу автора [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) https://youtu.be/wm5gMKuwSYk?si=acl9fNwzIjRISRYS
+
 
 ## Prerequisites
 
